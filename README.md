@@ -17,4 +17,5 @@ $ sudo pip3 install -r requirements.txt
 
 ## Reference
 * [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+* [ImageNet](http://www.image-net.org)
 
