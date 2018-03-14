@@ -27,7 +27,7 @@ $ vi /home/nvidia/.jupyter/jupyter_notebook_config.py
 $ jupyter notebook --no-browser --port 8004
 ```
 
-Finally, open your browser than paste the url `http://{Your IP}:8004/?token={Your token}`.
+Finally, open your browser and paste the url `http://{Your IP}:8004/?token={Your token}`.
 
 ## Image sets
 Download from ImageNet for non-commerical purposes. Put files into the following directories:
@@ -38,4 +38,5 @@ Download from ImageNet for non-commerical purposes. Put files into the following
 ## Reference
 * [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 * [ImageNet](http://www.image-net.org)
+* [Nvidia Jetson TX2](https://developer.nvidia.com/embedded/buy/jetson-tx2)
 
