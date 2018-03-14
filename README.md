@@ -5,6 +5,7 @@
 ## Environments
 * Install Jupyter with pip
 ```
+$ sudo apt-get install -y python3-pip
 $ sudo python3 -m pip install --upgrade pip
 $ sudo python3 -m pip install jupyter
 $ jupyter notebook
@@ -14,6 +15,19 @@ $ jupyter notebook
 ```
 $ sudo pip3 install -r requirements.txt
 ```
+
+* Using Jupyter Notebook on Nvidia TX2
+```
+$ jupyter notebook --generate-config
+```
+
+Then, modify `c.NotebookApp.ip = 'localhost'` to `c.NotebookApp.ip = '{Your IP}'`
+```
+$ vi /home/nvidia/.jupyter/jupyter_notebook_config.py
+$ jupyter notebook --no-browser --port 8004
+```
+
+Finally, open your browser than paste the url `http://{Your IP}:8004/?token={Your token}`.
 
 ## Image sets
 Download from ImageNet for non-commerical purposes. Put files into the following directories:

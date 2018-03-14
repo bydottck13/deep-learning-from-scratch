@@ -2,3 +2,5 @@ cat
 not-cat
 wolf
 .ipynb_checkpoints
+*.tar
+*.npy
