@@ -4,3 +4,5 @@ wolf
 .ipynb_checkpoints
 *.tar
 *.npy
+*.jpg
+__pycache__
