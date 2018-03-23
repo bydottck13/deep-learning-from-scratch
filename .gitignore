@@ -5,4 +5,6 @@ wolf
 *.tar
 *.npy
 *.jpg
+*.png
+*.ckpt.*
 __pycache__
