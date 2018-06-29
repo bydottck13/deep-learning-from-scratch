@@ -18,6 +18,11 @@ $ pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/
 $ conda install ipython-notebook
 ```
 
+* Install sframe
+```
+$ pip install -U sframe
+```
+
 * Launch jupyter notebook
 ```
 $ jupyter notebook
