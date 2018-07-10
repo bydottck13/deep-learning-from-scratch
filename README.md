@@ -5,7 +5,7 @@
 ## Directories
 * `Deep Learning by Andrew Ng`: some practices by myself
 * `UW-Classification`: programming assignments using GraphLab Create
-* `intro-to-dl`:
+* `intro-to-dl`: programming assignments using docker
 
 ## Reference
 * [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
